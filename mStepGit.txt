@@ -1,0 +1,20 @@
+1.mkdir 文件
+2.git init  先初值化文件
+3.在此文件下编写当需要保存时,先存到git库中
+4.加库步骤
+	1.git add -A   或者 git add filename
+	2.git commit -m "描述"   加过库的再次后 可以直接 git commit -am "描述"
+    3.其他查询
+		git diff 在提交,分支等之间显示差异
+		git log  
+		git log --oneline 一行显示log
+		git status 显示库状态
+5.第一次push.先加github
+	1.git remote add origin https://github.com/<name>/website.git
+	2.git push -u origin master
+	
+	3.如果之后在,添加直接:  git push
+
+6.按步骤输入github用户名和密码
+7.github添加成功
+
